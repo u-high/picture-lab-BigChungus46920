@@ -29,6 +29,7 @@ public class SimplePicture implements DigitalPicture
    */
   private String title;
   
+  
   /**
    * buffered image to hold pixels for the simple picture
    */
@@ -347,7 +348,8 @@ public class SimplePicture implements DigitalPicture
   * Method to get a two-dimensional array of Pixels for this simple picture
   * @return a two-dimensional array of Pixel objects in row-major order.
   */
- public Pixel[][] getPixels2D()
+ public Pixel[][] get
+   ()
  {
    int width = getWidth();
    int height = getHeight();
